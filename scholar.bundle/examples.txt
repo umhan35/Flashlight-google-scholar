@@ -1,0 +1,1 @@
+gs ~scholarquery(query here)
