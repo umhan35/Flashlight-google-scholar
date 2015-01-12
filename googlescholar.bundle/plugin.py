@@ -2,7 +2,7 @@ import urllib, json
 
 def results(parsed, original_query):
     search_specs = [
-         ["Search at Google Scholar for", "~scholarquery", "http://scholar.google.com/scholar?q="],
+         ["Search at Google Scholar for", "~googlescholarquery", "http://scholar.google.com/scholar?q="],
     ]
     for name, key, url in search_specs:
         if key in parsed:
